@@ -1,0 +1,315 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ==== header & Navbar ==== */
+.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+    font-size: 14px;
+}
+header{
+    background-image: url(../bootstrap_project/images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.layer{
+    height: 100%;
+    background-color:rgb(29, 27, 27,0.6);
+}
+.social_icon {
+    margin-top: 30px;
+    padding-top: 7px;
+    display: inline-block;
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+
+}
+.test p{
+    font-weight: 400;
+    font-size: 35px;
+}
+.test h1{
+    font-weight:bolder;
+    font-size: 60px;
+}
+
+/* ==== section About Me =====*/
+.progress-bar{
+    background-color:#1c1c1c;
+    border-radius: 3px;
+    font-size: 11px;
+    padding: 5px;
+
+
+}
+.skills .btn-dark{
+    background-color: #1c1c1c;
+}
+
+.skills .btn-us:hover{
+    background-color:#272323;
+    color:white
+}
+
+
+
+
+/*  === section services ===  */
+section{
+    background-color: rgb(230, 224, 224);
+}
+
+
+.icon{
+    padding: 15px;
+    font-size: 30px;
+    border:solid 1px white;
+    border-radius: 50%;
+    background-color: rgb(240, 239, 239);
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+ .item{
+    
+    padding: 50px 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color:#fff;
+   border-radius: 10px;
+}
+.item p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color:#748182;
+    word-spacing: 2px;
+    line-height: 1.1rem;
+}
+
+ .item h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.item:hover .icon{
+    background:#1c1c1c;
+    color: #eee; 
+}
+
+/* ===  style section portfolio ==== */
+.items{
+    position: relative;
+    
+}
+
+.layout{
+    
+    transition: transform 0.2s;
+    opacity: 0;
+    width:48%;
+    height:48%;
+    position: absolute;
+    
+    background-color: white;
+    border: 3px solid transparent;
+}
+.layout:hover{
+    
+    opacity: 1;
+    transform: scale(2);
+}
+.icon-2 i {
+    width: 35px;
+    height: 35px;
+    border:1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    color:white;
+}
+.icon-2 i:hover {
+    background-color:white;
+    color:black;
+}
+
+
+/* === section counter ===*/
+.counter{
+    background-color: #fff;
+}
+.counter h5{
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.counter i{
+    font-size: 25px;
+}
+.counter p{
+    font-size: 15px;
+    color: #748182;
+    margin-bottom: 50px;
+}
+
+/* ===== style section our blog ======*/
+.blog .carousel{
+    height:600px;
+    
+}
+.card{
+    border-radius:0;
+}
+.photo{
+    overflow: hidden;
+   
+}
+
+.card-img-top{
+    border-radius: 0;
+ transition:transform 1s;
+}
+.card-img-top:hover{
+    transform:scale(1.2);
+         
+}
+.read {
+ text-decoration: underline;
+}
+a:hover {
+ text-decoration:none;
+}
+
+.card-body h4 , h5 , a {
+    font-size: 15px;
+}
+
+/*==== section client ====*/
+
+.client .container{
+    margin-top: 80px;
+}
+.carousel-inner .photos{
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    margin-top: 30px;
+}
+.carousel-inner{
+
+  height:100vh;
+}
+.carousel-item{
+    width:100%;
+    height:100%;
+}
+  
+.carousel-inner h1{
+    margin-top: 50px;
+}
+/*!!!!! the code of bullets  Has been quoted by stack overflow !!!!!*/
+.bullets li {
+    background: none repeat scroll 0 0 #ccc;
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    height: 10px;
+    width: 10px;
+}
+.bullets li:last-child {
+     margin-right: 0;
+}
+.bullets li {
+  border-radius: 1000px;
+}
+.carousel-caption {
+    margin-bottom: 150px;
+}
+.carousel-caption p {
+    font-size: 12px;
+    color: #748182;
+
+}
+.carousel-caption h6 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color:#000;
+}
+.carousel-caption span{
+    font-size: 12px;
+    font-weight: 600;
+    color:#888;
+    margin-bottom: 30px;
+}
+
+/*==== contact.us style =====*/
+.contact .container{
+    background-color: white;
+}
+.row h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.row p{
+    font-size: 13px;
+    color: #748182;
+}
+.contact .icon{
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.form-control{
+    background-color:#f4f4f4;
+    border: 0px solid #ced4da;
+    max-height: 160px;
+}
+textarea.form-control {
+    width:808px;
+    height: 185px;
+}
+.btn{
+    display: block;
+    font-size: 10px;
+}
+
+/* ===== hover icons  section contact ======*/
+.addres:hover .icon{
+    background:#1c1c1c;
+    color: #eee; 
+}
+.email:hover .icon{
+    background:#1c1c1c;
+    color: #eee; 
+}
+.phone:hover .icon{
+    background:#1c1c1c;
+    color: #eee; 
+}
+.btn:hover {
+    background-color: white;
+    color:black;
+}
+
+/* ==== footer style ====*/
+.footer{
+    background-color: #1c1c1c;
+    padding:30px;
+}
+.footer p {
+    font-size: 13px;
+    word-spacing: 2px;
+    color:#748182;
+}
